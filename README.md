@@ -23,7 +23,7 @@ $ git clone https://github.com/Anonymous-3000/RAGNet
 ```
 and download the `pretrain.pth` into `./checkpoint` folder by clicking the `Download` button in [./checkpoint/pretrain.pth](./checkpoint/pretrain.pth) .
 #### Method 2
-Install git-lfs (large file support) by
+Install git-lfs (large file storage) by
 ```shell
 $ git lfs install --skip-repo
 ```
@@ -34,5 +34,6 @@ $ git lfs clone https://github.com/Anonymous-3000/RAGNet
 
 ## Test with the pre-trained model  
 ```shell
+$ cd RAGNet
 $ python test.py
 ```
